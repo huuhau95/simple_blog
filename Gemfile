@@ -18,8 +18,8 @@ gem "turbolinks", "~> 5"
 gem "jbuilder", "~> 2.5"
 gem "bcrypt", "~> 3.1.7"
 
-gem 'faker',          '1.7.3'
-gem 'will_paginate',           '3.1.6'
+gem 'faker', '1.7.3'
+gem 'will_paginate', '3.1.6'
 gem 'bootstrap-will_paginate', '1.0.0'
 
 group :development, :test do

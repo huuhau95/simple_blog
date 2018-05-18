@@ -31,6 +31,7 @@ en:
   password: "Password"
   confirmation_pw: "Confirmation"
   signup: "Sign up"
+  activate: "Activate"
   create_acount: "Create my account"
   title_login: "Log in"
   new_user: "New user?"
