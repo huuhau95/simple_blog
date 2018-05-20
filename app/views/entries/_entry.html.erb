@@ -1,8 +1,11 @@
 <li id="entry-<%= entry.id %>">
   <%= link_to gravatar_for(entry.user, size: 50), entry.user %>
   <span class="user"><%= link_to entry.user.name, entry.user %></span>
+  <span style="display:block">
+     <%= link_to entry.content,entry_path(entry) %>
+  </span>
   <span class="content">
-    <%= entry.content %>
+   
     <%= image_tag entry.picture.url if entry.picture? %>
     </span>
   <span class="timestamp">
